@@ -1,0 +1,30 @@
+h1{
+    color: purple;
+}
+
+/* This selects h2's which are DIRECT CHILDREN of sections! */
+
+section > h2 {
+    color: blue;
+}
+
+article > h2{
+    color: red;
+}
+
+section article h2{
+    color: orange;
+}
+
+/* This selects paragraphs which are SIBLINGS of paragraphs! */
+
+p + p{
+    color: red;
+}
+
+/* ID's use only ONE ID with the same value per document 
+#IDName {
+    somestuffhere;
+}*/
+
+/* using !important is an example of inline style which is the HIGHEST level of specificity  */
