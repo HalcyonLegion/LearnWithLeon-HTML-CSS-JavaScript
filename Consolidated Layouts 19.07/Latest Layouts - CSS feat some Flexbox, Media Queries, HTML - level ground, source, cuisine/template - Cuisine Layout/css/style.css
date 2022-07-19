@@ -1,0 +1,153 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.navContainer{
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.navLeft{
+  float: left;
+  width: 40%;
+}
+
+.navRight{
+  float: right;
+}
+
+li{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.topContainer{
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.topLeft{
+  float: left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.aboutUsCont{
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.aboutUs{
+  width: 65%;
+  display: block;
+  float: right;
+  text-align: start;
+  margin: 0 200px;
+}
+
+
+.preImagesCont{
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.plsalign{
+  text-align: center;
+}
+
+.plsalign > span{
+  padding-right: 50px;
+}
+
+
+.eightimagesCont{
+  width: 100%;
+  height: 400px;
+  margin-left: 200px;
+}
+
+.eightimagesOne img{
+  float: left;
+  width: 25%;
+}
+.eightimagesTwo img{
+  float: left;
+  width: 25%;
+}
+
+.bookTableCont{
+  width: 100%;
+  height: 400px;
+}
+
+.bookTable{
+  text-align: center;
+}
+
+.splitTestLeft{
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+.splitTestRight{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.fruitbowl{
+  width: 100%;
+  height: 600px;
+}
+
+.fruitbowl > img{
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.testimonialsCont{
+  width: 100%;
+  height: 600px;
+}
+
+.testimonials{
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

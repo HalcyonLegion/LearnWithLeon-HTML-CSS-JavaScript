@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 100px;
+    border: 3px solid grey;
+    clear: both;
+}
+
+.banana{
+    border: 3px solid grey;
+    height: 300px;
+    width: 33.333%;
+    float: left;
+}
+
+.zebra{
+    border: 3px solid grey;
+    height: 450px;
+    width: 50%;
+    float: left;
+}
+
+
+/* LEON'S SOLUTION
+
+He only gave Classes to the bottom two, instead of zebra he called them bigBottom.
+
+Combined header and footer like I did:
+
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 100px;
+    border: 2px solid black;
+    clear: both; (to ensure the footer stays at the bottom)
+}
+
+for the first sections:
+
+section{
+    height: 300px;
+    width: 33.3333%;
+    float: left;
+    border: 2px solid black;
+}
+
+.bigBottom{
+    width: 50%;
+}
+
+In this solution he doesn't need to call Border twice as the only bit really being changed is
+the bottom part
+
+*/
+

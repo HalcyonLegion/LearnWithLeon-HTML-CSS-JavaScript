@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 100px;
+    border: 3px solid grey;
+    clear: both;
+}
+
+.banana{
+    border: 3px solid grey;
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+
+.rhino{
+    border: 3px solid grey;
+    height: 350px;
+    width: 40%;
+    float: left;
+}
+
+.zebra{
+    border: 3px solid grey;
+    height: 350px;
+    width: 60%;
+    float: left;
+}

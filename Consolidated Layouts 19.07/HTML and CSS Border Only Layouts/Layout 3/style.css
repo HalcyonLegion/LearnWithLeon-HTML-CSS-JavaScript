@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height: 100px;
+    border: 3px solid grey;
+    clear: both;
+}
+
+section{
+    border: 3px solid grey;
+    height: 700px;
+    width: 20%;
+    float: left;
+}
+
+.banana{
+    width: 40%;
+}
+
+/* MEDIA QUERY EXAMPLES OPEN THE LAYOUT AND TRY RESIZING! */
+
+@media screen and (max-width: 600px) {
+    section{
+    background: green;
+    }
+}
+
+/* MEDIA QUERY EXAMPLES OPEN THE LAYOUT AND TRY RESIZING!
+This causes the banana section to vanish but for the remaining sections to fill in!! */
+
+@media (min-width: 601px) and (max-width: 900px){
+    section{
+        background: blue;
+        width: 33.333%;
+    }
+    .banana{
+        display: none;
+    }
+}
